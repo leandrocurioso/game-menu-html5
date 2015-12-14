@@ -1,0 +1,12 @@
+@font-face {
+    font-family: '8-bit_limit_brkregular';
+    src: url('8bitlim-webfont.eot');
+    src: url('8bitlim-webfont.eot?#iefix') format('embedded-opentype'),
+         url('8bitlim-webfont.woff2') format('woff2'),
+         url('8bitlim-webfont.woff') format('woff'),
+         url('8bitlim-webfont.ttf') format('truetype'),
+         url('8bitlim-webfont.svg#8-bit_limit_brkregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

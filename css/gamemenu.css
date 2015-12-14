@@ -1,0 +1,113 @@
+/*
+	Game Menu Template
+	Develop by Leandro Curioso
+	leandro.curioso@gmail.com	
+*/
+
+body { 
+  background: url("../img/background/background.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align:center;
+}
+
+h1{
+	font-size:100px;	
+}
+
+.title{
+	color:red;
+	position:relative;
+	top:30px;
+	right:5px;
+}
+
+.main-font{
+	font-family: '8-bit_limit_brkregular';
+}
+
+#main-menu{
+	color:#FFF;
+	list-style-type: none;
+	margin:0 auto;
+	/*display:none;*/
+	position:relative;
+	top:100px;
+	right:25px;
+	font-size:30px;
+	font-family: '8-bit_limit_brkregular';
+	display:inline-block;
+}
+
+.sub-menu{
+	color:#FFF;
+	list-style-type: none;
+	margin:0 auto;
+	display:none;
+	position:relative;
+	top:100px;
+	right:25px;
+	font-size:25px;
+	font-family: '8-bit_limit_brkregular';
+	display:inline-block;
+	cursor:pointer;
+}
+
+
+.back{
+	text-align:center;
+	color:#FFF;
+	list-style-type: none;
+	margin:0 auto;
+	display:none;
+	position:relative;
+	font-size:25px;
+	font-family: '8-bit_limit_brkregular';
+	display:inline-block;
+	cursor:pointer;
+}
+
+.sub-menu-opt small{
+	font-size:20px;
+}
+
+#main-menu li{
+	cursor:pointer;
+}
+
+#main-menu li:hover{
+	color:red;
+}
+
+.selected-opt {
+	color:red;
+}
+
+#loading {
+	position:relative;
+	top:50px;
+	background:white;
+	padding:20px;
+	width:160px;
+	margin:0 auto;
+	display:none;
+}
+
+#loading h2 {
+	color:red;
+}
+
+#credits{
+	color:#FFF;
+	list-style-type: none;
+	margin:0 auto;
+	display:none;
+	position:relative;
+	top:40px;
+	right:25px;
+	font-size:25px;
+	font-family: '8-bit_limit_brkregular';
+	display:inline-block;
+}
